@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Strona Główna')</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}"> <!-- Link do CSS -->
+    @vite('resources/css/app.css') <!-- Link do CSS -->
 </head>
 <body>
 <!-- Sekcja Top -->
